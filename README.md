@@ -15,4 +15,4 @@ of possible Feynmann diagrams for QED processes, amplitude scattering and the to
 
 There is a folder contains the general program for different processes. The main interface is Dyson_Schwinger.nb. By changing the inputs, the result for 6 different processes in each .nb files can be recovered. 
 
-N.B : The computational time increases with the increasing of number of particles involved in the processes.
+N.B : The computational time increases with the increasing of number of particles involved in the process.
