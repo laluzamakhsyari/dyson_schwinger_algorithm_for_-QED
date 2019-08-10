@@ -1,0 +1,12 @@
+(* ::Package:: *)
+
+(* ::Input:: *)
+(*(*Sign Factor*) *)
+(*kai[bin1_,bin2_]:=Reap[Block[{a,b,binone,bintwo,e},*)
+(*a=Table[If[flv1[[i]]==gamma,num1[[i]],0],{i,1,Length[flv1]}];*)
+(*b=Reverse[IntegerDigits[Sum[a[[i]],{i,1,Length[a]}],2,Length[flv]]];*)
+(*binone=If[bit[sum[bin1],FromDigits[Reverse[b]]]== 0,Reverse[IntegerDigits[sum[bin1],2,Length[flv]]],Reverse[IntegerDigits[bit[sum[bin1],BitNot[FromDigits[Reverse[b]]]],2,Length[flv]]]];*)
+(*bintwo=If[bit[sum[bin2],FromDigits[Reverse[b]]]== 0,Reverse[IntegerDigits[sum[bin2],2,Length[flv]]],Reverse[IntegerDigits[bit[sum[bin2],BitNot[FromDigits[Reverse[b]]]],2,Length[flv]]]];*)
+(*e=Sow[Sum[binone[[i]](Sum[bintwo[[j]],{j,1,i-1}]),{i,2,Length[flv]}]];*)
+(*]][[2,1,1]]*)
+(*epsilon[bin1_,bin2_]:=(-1)^(kai[bin1,bin2])*)

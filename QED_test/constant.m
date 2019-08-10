@@ -1,0 +1,13 @@
+(* ::Package:: *)
+
+(* ::Input:: *)
+(*(*QED particles and Constants*)*)
+(*eminus= 2;*)
+(*eplus=-2;*)
+(*muminus=6;*)
+(*muplus=-6;*)
+(*gamma=31;*)
+(**)
+(*m=0;*)
+(*g=0.307953764;*)
+(**)
